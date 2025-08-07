@@ -41,22 +41,4 @@ Se añade Dropout después de los bloques de convolución y antes de la capa de 
 
 El script muestra una imagen del conjunto de test y predice su clase, imprimiendo las probabilidades y el nombre del número predicho.
 
-## Requisitos
 
-- Python
-- TensorFlow
-- NumPy
-- Matplotlib
-
-Instalación recomendada:
-```bash
-pip install tensorflow numpy matplotlib
-```
-
-## Ejecución
-
-```bash
-python reconocimiento.py
-```
-
-Este script entrenará dos modelos (con y sin Dropout), mostrará predicciones y evaluará el rendimiento en el conjunto de prueba.
